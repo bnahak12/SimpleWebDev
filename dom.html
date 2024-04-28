@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <title>DOM Projects</title>
+</head>
+
+<body>
+    <p>YT Sub Button</p>
+    <button class="yt-btn" onclick="fn_subs()">
+        Subscribe</button>
+    <script>
+
+        function fn_subs() {
+            const btnElement = document.querySelector('.yt-btn');
+            if (btnElement.innerText === 'Subscribe') {
+                btnElement.innerText = 'Subscribed';
+            } else {
+                btnElement.innerText = 'Subscribe';
+            }
+        }
+
+    </script>
+</body>
+
+</html>

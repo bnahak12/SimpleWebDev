@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <title>FlexBox Practice</title>
+    <style>
+        .container {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body style="padding-bottom: 1000px;">
+    <div class="container">
+        <div style="background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="
+        background-color: lightpink;flex: 1;">
+            flex 1
+        </div>
+    </div>
+    <div class="container">
+        <div style="background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="
+            background-color: lightpink;flex: 1;">
+            flex 1
+        </div>
+        <div style="background-color: lightblue; flex:2">
+            flex 2
+        </div>
+    </div>
+    <div class="container" style="justify-content: center; border-width: 1px; 
+            border-style: solid; border-color: gray;">
+        <div style="background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="
+                    background-color: lightpink;width: 100px;">
+            width: 100px;
+        </div>
+        <div style="background-color: lightblue; width: 100px;">
+            width: 100px;
+        </div>
+    </div>
+
+    <div class="container" style="justify-content: space-between; border-width: 1px; 
+                    border-style: solid; border-color: gray;">
+        <div style="background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="
+                            background-color: lightpink;width: 100px;">
+            width: 100px;
+        </div>
+        <div style="background-color: lightblue; width: 100px;">
+            width: 100px;
+        </div>
+    </div>
+    <div class="container" style="
+            height: 200px;
+            justify-content: space-between; 
+            align-items: stretch; 
+            border-width: 1px; 
+            border-style: solid; 
+            border-color: gray;">
+        <div style="background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="
+            background-color: lightpink;width: 100px;">
+            width: 100px;
+        </div>
+        <div style="background-color: lightblue; width: 100px;">
+            width: 100px;
+        </div>
+    </div>
+</body>
+
+
+</html>
